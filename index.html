@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> Kagurie Butterfly</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="app">
+
+	<div class="cardList">
+		<button class="cardList__btn btn btn--left">
+			<div class="icon">
+				<svg>
+					<use xlink:href="#arrow-left"></use>
+				</svg>
+			</div>
+		</button>
+
+		<div class="cards__wrapper">
+			<div class="card current--card">
+				<div class="card__image">
+					<img src="https://i0.wp.com/www.japanbyweb.com/wp-content/uploads/2019/05/gotokuji-01.jpg?resize=1165%2C874&ssl=1" alt="" />
+				</div>
+			</div>
+
+			<div class="card next--card">
+				<div class="card__image">
+					<img src="https://www.travelandleisure.com/thmb/COkej8co7flg34qqz6MzXgoBBfc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/baros-island-maldives-MALDIVEBEACH0720-a16b7be36c8146d4a285a379aed49bde.jpg" alt="" />
+				</div>
+			</div>
+
+			<div class="card previous--card">
+				<div class="card__image">
+					<img src="https://www.travelandleisure.com/thmb/ISDM_sDW3_0NSMJTZ3jgXjpRgsk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/zermatt-switzerland-a	erial_SKITOWN0123-0df880426acd494c9d8791be79b07494.jpg" alt="" />
+				</div>
+			</div>
+		</div>
+
+		<button class="cardList__btn btn btn--right">
+			<div class="icon">
+				<svg>
+					<use xlink:href="#arrow-right"></use>
+				</svg>
+			</div>
+		</button>
+	</div>
+
+	<div class="infoList">
+		<div class="info__wrapper">
+			<div class="info current--info">
+				<h1 class="text name">JAPAN</h1>
+				<h4 class="text location">Gotokuji Temple</h4>
+				<p class="text description">Gotokuji Temple, located in </p>
+				<p class="text description">the Setagaya ward of Tokyo, is a Budhist temple </p>
+				<p class="text description"> that is said to be the birthplace of the maneki-neko
+				</p>
+			</div>
+
+			<div class="info next--info">
+				<h1 class="text name">MALDIVES</h1>
+				<h4 class="text location">Zermatt</h4>
+				<p class="text description">The beaches of Baros island are pristine,
+				<p class="text description">encircled by clear waters and a coral reef.</p>
+			</div>
+
+			<div class="info previous--info">
+				<h1 class="text name">SWITZERLAND</h1>
+				<h4 class="text location">France</h4>
+				<p class="text description">Zermatt is a municipality in the district of Visp</p>
+				<p class="text description"> in the German-speaking section of the canton of Valais in Switzerland.</p>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="app__bg">
+		<div class="app__bg__image current--image">
+			<img src="https://source.unsplash.com/Z8dtTatMVMw" alt="" />
+		</div>
+		<div class="app__bg__image next--image">
+			<img src="https://source.unsplash.com/9dmycbFE7mQ" alt="" />
+		</div>
+		<div class="app__bg__image previous--image">
+			<img src="https://source.unsplash.com/m7K4KzL5aQ8" alt="" />
+		</div>
+	</div>
+</div>
+
+<div class="loading__wrapper">
+	<div class="loader--text">Loading...</div>
+	<div class="loader">
+		<span></span>
+	</div>
+</div>
+
+
+<svg class="icons" style="display: none;">
+	<symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+		<polyline points='328 112 184 256 328 400'
+					 style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+	</symbol>
+	<symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+		<polyline points='184 112 328 256 184 400'
+					 style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+	</symbol>
+</svg>
+
+<!-- partial -->
+  <script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
